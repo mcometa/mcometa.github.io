@@ -1,0 +1,24 @@
+- name: Kah Huat Textile Co.
+  url: http://kahhuat.com.sg
+  image: kahhuat.png
+  tech: WordPress, HTML, CSS, JavaScript (jQuery)
+
+- name: My Drum School
+  url: http://mydrumschool.com
+  image: mds.png
+  desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
+
+- name: Rig Noobies
+  url: http://rignoobies.com/
+  image: rn.png
+  desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
+
+- name: Tempstar Logo
+  url: #
+  image: tempstar_logo_big.png
+  desc: Logo Design
+
+- name: HDI Network
+  url: #
+  image: hdinetwork.jpg
+  desc: Web Design

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Welcome
+---
+
+
+{% for portfolio_item in site.data.portfolio_items %}
+  <div class="portfolio-item c-3">
+    <div class="screenshot">
+      <img src="images/projects/{{ portfolio_item.image }}" />
+    </div>
+    <div class="details">
+      Name: {{ portfolio_item.name }} <br>
+      URL: {{ portfolio_item.url }} <br>
+      Image: {{ portfolio_item.image }} <br>
+      Tech: {{ portfolio_item.tech }} <br>
+    </div>
+  </div>
+{% endfor %}

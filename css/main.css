@@ -1,0 +1,195 @@
+/*! mcometa.github.io
+ *  by Marc Cometa/* == Posts
+ * =============================================================================== */
+
+/* == Global Resets
+/* =============================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #4BBCFF; }
+a:hover   { color: #3e9ed6; }
+a:visited { color: #3e9ed6; }
+
+img {
+  max-width: 100%;
+}
+
+/* == Scaffold
+/* =============================================================================== */
+
+.w {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.c-1 {
+  width: 100%;
+}
+
+.c-2 {
+  width: 50%;
+}
+
+.c-3 {
+  width: 33.3333333%;
+}
+
+[class*="c-"] {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* == Home
+/* =============================================================================== */
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/* == Site
+/* =============================================================================== */
+
+.site {
+  font-size: 115%;
+  width: 70em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 2em;
+  display: inline-block;
+  margin-bottom: 0.2em;
+  line-height: 1;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+div.footer {
+  font-size: 80%;
+  color: #999;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+/* == Posts
+/* =============================================================================== */
+
+/* Portfolio Items */
+
+.portfolio-items {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.portfolio-item {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.portfolio-item > .screenshot {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 2px;
+
+}
+
+.details {
+  display: none;
+}
+
+/* == Helpers
+/* =============================================================================== */
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.fl-r {
+  float: right;
+}
+
+.fl-l {
+  float: left;
+}
+
+.n-m {
+  margin: 0;
+}
+
+.n-p {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  [class*="c-"] {
+    float: left;
+  }
+}
