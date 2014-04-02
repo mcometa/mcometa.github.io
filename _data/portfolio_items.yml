@@ -1,24 +1,70 @@
+- name: AWAN Group of Companies
+  url: http://awan.com.sg
+  image: awan.jpg
+  tech: HTML, CSS, JavaScript
+
+- name: Hainei Building and Development Pte Ltd
+  url: #
+  image: hainei.png
+  tech: WordPress Theme Customizations, Plugins, Administration, HTML, CSS, JavaScript (jQuery)
+
 - name: Kah Huat Textile Co.
   url: http://kahhuat.com.sg
   image: kahhuat.png
   tech: WordPress, HTML, CSS, JavaScript (jQuery)
 
-- name: My Drum School
-  url: http://mydrumschool.com
-  image: mds.png
-  desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
+- name: Content Forest
+  url: #
+  image: cf-1.jpg
+  desc: Web Design
 
 - name: Rig Noobies
   url: http://rignoobies.com/
   image: rn.png
   desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
 
-- name: Tempstar Logo
+- name: ShopThisEasy
+  url: http://shopthiseasy.com/
+  image: shopthiseasy.jpg
+  desc: Web Design, Product Development, UX Development, Front-end Engineering
+
+- name: Global Forwarding
   url: #
-  image: tempstar_logo_big.png
-  desc: Logo Design
+  image: globalforwarding.png
+  desc: Web Design
+
+- name: High Desert International
+  url: #
+  image: hdi.png
+  desc: Web Design, WordPress Theme Development
 
 - name: HDI Network
   url: #
   image: hdinetwork.jpg
   desc: Web Design
+
+- name: HDI System Technologies
+  url: #
+  image: hdisystech.jpg
+  desc: Web Design
+
+- name: My Drum School
+  url: http://mydrumschool.com
+  image: mds.png
+  desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
+
+- name: Travel Packages Philippines
+  url: #
+  image: travel-packages.jpg
+  desc: WordPress Theme Development
+
+- name: Tempstar
+  url: #
+  image: tempstar.png
+  desc: Logo Design
+
+- name: Group Hugs Mountaineers
+  url: #
+  image: gho.jpg
+  desc: Logo Design, T-shirt Design
+

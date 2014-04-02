@@ -4,9 +4,11 @@ title: Welcome
 ---
 
 {% for portfolio_item in site.data.portfolio_items %}
-  <div class="portfolio-item c-3">
+  <div class="portfolio-item c-4">
     <div class="screenshot">
-      <img src="images/projects/{{ portfolio_item.image }}" />
+      <!-- <a href="#"> -->
+        {% image portfolio_img {{portfolio_item.image}} %}        
+      <!-- </a> -->
     </div>
     <div class="details">
       Name: {{ portfolio_item.name }} <br>

@@ -39,19 +39,54 @@ img {
 .w {
   margin-left: -10px;
   margin-right: -10px;
-}
+} 
 
 .c-1 {
-  width: 100%;
+  width: 8.3333333333%;
 }
 
 .c-2 {
-  width: 50%;
+  width: 16.666666667%;
 }
 
 .c-3 {
-  width: 33.3333333%;
+  width: 25%;
 }
+
+.c-4 {
+  width: 33.333333333%;
+}
+
+.c-5 {
+  width: 41.666666667%;
+}
+
+.c-6 {
+  width: 50%;
+}
+
+.c-7 {
+  width: 58.33333333%;
+}
+
+.c-8 {
+  width: 66.666666667%;
+}
+
+.c-9 {
+  width: 75%;
+}
+.c-10 {
+  width: 83.333333333%;
+}
+
+.c-11 {
+  width: 91.6666666667%;
+}
+
+.c-12 {
+  width: 100%;
+} 
 
 [class*="c-"] {
   position: relative;
@@ -86,6 +121,10 @@ img {
   width: 70em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+}
+
+.header {
+  padding: 20px 20px 0;
 }
 
 .header a {

@@ -4,3 +4,17 @@ markdown: redcarpet
 pygments: true
 description: Marc Cometa, A Web Designer and a Front-end Web Developer from Manila, Philippines. Contact me at marc@mcometa.com.
 keywords: manila web designer, philippines web designer, web design, web developer, front-end developer, website designer, wordpress developer, jquery developer, html css developer, manila web design, manila jquery designer, ui engineer, front end engineer, ruby on rails front end, meteor js, gruntjs
+
+image:
+  source: images/_orig
+  output: generated
+  presets:
+    portfolio_img:
+      attr:
+        class: portfolio-img
+        itemprop: image
+      width: 380
+    portfolio_img_big:
+      attr:
+        class: portfolio-img
+        itemprop: image
