@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p { margin: 0.5em 0; }
 
-a         { color: #4BBCFF; }
-a:hover   { color: #3e9ed6; }
+a         { color: #4BBCFF; text-decoration: none; }
+a:hover   { color: #3e9ed6; text-decoration: underline;   }
 a:visited { color: #3e9ed6; }
 
 img {
@@ -118,7 +118,7 @@ img {
 
 .site {
   font-size: 115%;
-  width: 70em;
+  width: 100%;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -160,7 +160,7 @@ img {
   color: #aaa;
 }
 
-div.footer {
+.footer {
   font-size: 80%;
   color: #999;
   border-top: 4px solid #eee;
@@ -187,6 +187,7 @@ div.footer {
   height: 200px;
   overflow: hidden;
   margin-bottom: 2px;
+  text-align: center;
 
 }
 
@@ -227,8 +228,49 @@ div.footer {
   padding: 0;
 }
 
+@media (min-width: 1025px) {
+  .site {
+    width: 70em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .site {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
+
   [class*="c-"] {
     float: left;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .site {
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  [class*="c-"] {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+
+  .site {
+    margin-top: 1em;
+  }
+
+  [class*="c-"] {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 0 10px;
+    margin-top: 1em;
   }
 }
