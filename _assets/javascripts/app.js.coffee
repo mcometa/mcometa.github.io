@@ -4,7 +4,7 @@ self = undefined
 App =
   init: ->
     self = this
-    self.bindEvents()
+    # self.bindEvents()
     return
 
   bindEvents: ->

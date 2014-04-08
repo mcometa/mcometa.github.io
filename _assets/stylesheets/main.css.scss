@@ -4,6 +4,9 @@
 
 /* == Global Resets
 /* =============================================================================== */
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,400,700,300italic,400italic,700italic");
+
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +19,12 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px 'Roboto', 'Arial', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-weight: 700;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 0.5em 0; }
@@ -105,22 +109,33 @@ img {
   padding-right: 10px;
 }
 
-/* == Home
+/* == Blog
 /* =============================================================================== */
 
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+.post {
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
-.posts li {
-  line-height: 1.75em;
+.post-title {
+  letter-spacing: 1px;
+  font-size: 2.4em;
+  line-height: 1em;
+  margin-bottom: 30px;
 }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+.post-content {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+
+  > p {
+    margin: 0 0 20px;
+  }
+}
+
+.post-meta {
+  color: #999;
 }
 
 /* == Site
@@ -133,31 +148,12 @@ img {
   line-height: 1.5em;
 }
 
-.header {
+.head {
   padding: 20px 20px 0;
-}
-
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.title {
-  font-size: 2em;
-  display: inline-block;
-  margin-bottom: 0.2em;
-  line-height: 1;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header {
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
   a.extra {
     color: #aaa;
     margin-left: 1em;
@@ -168,13 +164,27 @@ img {
   }
 }
 
+.title {
+  font-size: 2em;
+  display: inline-block;
+  margin-bottom: 0.2em;
+  line-height: 1;
+  a {
+    color: #a00;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
 .meta {
   color: #aaa;
 }
 
 .footer {
   font-size: 80%;
-  color: #999;
+  color: #777;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;

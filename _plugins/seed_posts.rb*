@@ -62,8 +62,8 @@ monthes = (1..12).to_a
 days    = (1..29).to_a
 titles  = []
 
-42.times do
-  post = Post.new("2012-#{"%02d" % monthes.sample}-#{"%02d" % days.sample}")
+4.times do
+  post = Post.new("2014-#{"%02d" % monthes.sample}-#{"%02d" % days.sample}")
 
   # make sure title is unique
   post.reset! while titles.include? post.title.downcase
