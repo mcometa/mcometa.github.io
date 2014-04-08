@@ -1,65 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ site.keywords }}">
-
-    <meta name="viewport" content="width=device-width">
-
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-
-  </head>
-  <body>
-
-    <div class="site w">
-      <div class="header c-4" itemscope itemtype="http://data-vocabulary.org/Person">
-        <h1 class="title " itemprop="name">
-          Marc Cometa
-        </h1>
-        <p class="">
-          <span itemprop="title">Experienced Web Designer and Front-end Developer</span> from <span itemprop="address" itemscope
-    itemtype="http://data-vocabulary.org/Address"><span itemprop="country-name">Manila</span>, <span="country-name">Philippines</span></span>
-        </p>
-        <p>
-          <a href="mailto:marc@mcometa.com" itemprop="email">marc@mcometa.com</a><br>
-          <span itemprop="telephone">+63-917-8157189</span><br />
-        </p>
-      </div>
+{% include head.html %}
 
       {{ content }}
 
-      <div class="cf"></div>
+      
 
-      <div class="footer cf n-m n-p">
-        <div class="c-3">
-          <p>
-            <strong>Other Ways To Contact Me</strong><br>
-            <a href="http://twitter.com/mcometa">@mcometa</a><br>
-            <a href="http://linkedin.com/in/mcometa">LinkedIn profile</a>
-          </p>
-        </div>
-        <div class="c-9">
-          <p>
-            I am an experienced Web Designer and a Front-end Engineer. I am passionate about creating things for the web. I have been part of projects ranging from Personal to Corporate Websites, Small to Medium Scale Web Applications, eCommerce, Email Templates.
-          </p>
-
-          <p>I work for <a href="http://friendster.com">Friendster</a> as a Front-end Engineer.</p>
-
-          <p>
-            &copy; 2014. Some rights reserved. Powered by Jekyll for GitHub pages.
-          </p>
-        </div>
-        
-      </div>
-    </div>
-
-  </body>
-</html>
+{% include foot.html %}

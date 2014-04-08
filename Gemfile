@@ -1,4 +1,12 @@
 source 'https://rubygems.org' 
+
 gem 'jekyll'
-gem 'mini_magick'
+
 gem 'github-pages'
+gem 'mini_magick'
+
+gem 'jekyll-assets'
+
+gem "coffee-script"
+gem "uglifier"     
+gem "sass"         
