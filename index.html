@@ -1,20 +1,21 @@
 ---
-layout: default
+layout: portfolio
 title: Welcome
 ---
 
 {% for portfolio_item in site.data.portfolio_items %}
   <div class="portfolio-item c-4">
     <div class="screenshot">
-      <!-- <a href="#"> -->
-        {% image portfolio_img {{portfolio_item.image}} %}        
-      <!-- </a> -->
+      
+      {% image portfolio_img {{portfolio_item.image}} %}
+      
+      <div class="big hide">
+        {% image portfolio_img_big {{portfolio_item.image}} %}
+      </div>
     </div>
     <div class="details">
-      Name: {{ portfolio_item.name }} <br>
-      URL: {{ portfolio_item.url }} <br>
-      Image: {{ portfolio_item.image }} <br>
-      Tech: {{ portfolio_item.tech }} <br>
+      <strong>{{ portfolio_item.name }}</strong> <br>
+      {{ portfolio_item.tech }} <br>
     </div>
   </div>
 {% endfor %}

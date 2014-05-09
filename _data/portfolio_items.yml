@@ -4,9 +4,9 @@
   tech: HTML, CSS, JavaScript
 
 - name: Hainei Building and Development Pte Ltd
-  url: #
+  url: "#"
   image: hainei.png
-  tech: WordPress Theme Customizations, Plugins, Administration, HTML, CSS, JavaScript (jQuery)
+  tech: WordPress, HTML, CSS, JavaScript (jQuery)
 
 - name: Kah Huat Textile Co.
   url: http://kahhuat.com.sg
@@ -14,14 +14,14 @@
   tech: WordPress, HTML, CSS, JavaScript (jQuery)
 
 - name: Content Forest
-  url: #
+  url: "#"
   image: cf-1.jpg
-  desc: Web Design
+  desc: Web Design, Hehe
 
 - name: Rig Noobies
   url: http://rignoobies.com/
   image: rn.png
-  desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
+  desc: WordPress, HTML, CSS, JavaScript (jQuery)
 
 - name: ShopThisEasy
   url: http://shopthiseasy.com/
@@ -29,42 +29,46 @@
   desc: Web Design, Product Development, UX Development, Front-end Engineering
 
 - name: Global Forwarding
-  url: #
+  url: "#"
   image: globalforwarding.png
   desc: Web Design
 
 - name: High Desert International
-  url: #
+  url: "#"
   image: hdi.png
-  desc: Web Design, WordPress Theme Development
+  desc: WordPress, Web Design
 
 - name: HDI Network
-  url: #
+  url: 
   image: hdinetwork.jpg
   desc: Web Design
 
 - name: HDI System Technologies
-  url: #
+  url: "#"
   image: hdisystech.jpg
   desc: Web Design
 
 - name: My Drum School
   url: http://mydrumschool.com
   image: mds.png
-  desc: Various WordPress customizations for Administration, Plugin, and Theme. HTML, CSS, JavaScript (jQuery)
+  desc: WordPress, HTML, CSS, JavaScript (jQuery)
 
 - name: Travel Packages Philippines
-  url: #
+  url: "#"
   image: travel-packages.jpg
-  desc: WordPress Theme Development
+  desc: WordPress, HTML, CSS, JavaScript
 
 - name: Tempstar
-  url: #
+  url: "#"
   image: tempstar.png
   desc: Logo Design
+  
+- name: Corestack
+  url: "#"
+  image: corestack2.png
+  desc: Logo Design,
 
 - name: Group Hugs Mountaineers
-  url: #
+  url: "#"
   image: gho.jpg
   desc: Logo Design, T-shirt Design
-
