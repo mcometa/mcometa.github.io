@@ -7,11 +7,9 @@ title: Welcome
   <div class="portfolio-item c-4">
     <div class="screenshot">
       
-      {% image portfolio_img {{portfolio_item.image}} %}
-      
-      <div class="big hide">
-        {% image portfolio_img_big {{portfolio_item.image}} %}
-      </div>
+      <a href="{% image portfolio_img_big {{portfolio_item.image}} url %}" title="{{ portfolio_item.name }}" rel="fancybox">
+        {% image portfolio_img {{portfolio_item.image}} %}
+      </a>
     </div>
     <div class="details">
       <strong>{{ portfolio_item.name }}</strong> <br>

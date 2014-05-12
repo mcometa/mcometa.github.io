@@ -1,74 +1,74 @@
 - name: AWAN Group of Companies
-  url: http://awan.com.sg
   image: awan.jpg
   tech: HTML, CSS, JavaScript
+  url: http://awan.com.sg
 
 - name: Hainei Building and Development Pte Ltd
-  url: "#"
   image: hainei.png
   tech: WordPress, HTML, CSS, JavaScript (jQuery)
+  url:
 
 - name: Kah Huat Textile Co.
-  url: http://kahhuat.com.sg
   image: kahhuat.png
   tech: WordPress, HTML, CSS, JavaScript (jQuery)
+  url: http://kahhuat.com.sg
 
 - name: Content Forest
-  url: "#"
   image: cf-1.jpg
-  desc: Web Design, Hehe
+  tech: Web Design
+  url:
 
 - name: Rig Noobies
-  url: http://rignoobies.com/
   image: rn.png
-  desc: WordPress, HTML, CSS, JavaScript (jQuery)
+  tech: WordPress, HTML, CSS, JavaScript (jQuery)
+  url: http://rignoobies.com/
 
 - name: ShopThisEasy
-  url: http://shopthiseasy.com/
   image: shopthiseasy.jpg
-  desc: Web Design, Product Development, UX Development, Front-end Engineering
+  tech: Web Design, Product Development, UX Development, Front-end Engineering
+  url: http://shopthiseasy.com/
 
 - name: Global Forwarding
-  url: "#"
   image: globalforwarding.png
-  desc: Web Design
+  tech: Web Design
+  url:
 
 - name: High Desert International
-  url: "#"
   image: hdi.png
-  desc: WordPress, Web Design
+  tech: WordPress, Web Design
+  url:
 
 - name: HDI Network
-  url: 
   image: hdinetwork.jpg
-  desc: Web Design
+  tech: Web Design
+  url: 
 
 - name: HDI System Technologies
-  url: "#"
   image: hdisystech.jpg
-  desc: Web Design
+  tech: Web Design
+  url:
 
 - name: My Drum School
-  url: http://mydrumschool.com
   image: mds.png
-  desc: WordPress, HTML, CSS, JavaScript (jQuery)
+  tech: WordPress, HTML, CSS, JavaScript (jQuery)
+  url: http://mydrumschool.com
 
 - name: Travel Packages Philippines
-  url: "#"
   image: travel-packages.jpg
-  desc: WordPress, HTML, CSS, JavaScript
+  tech: WordPress, HTML, CSS, JavaScript
+  url:
 
 - name: Tempstar
-  url: "#"
   image: tempstar.png
-  desc: Logo Design
+  tech: Logo Design
+  url:
   
 - name: Corestack
-  url: "#"
   image: corestack2.png
-  desc: Logo Design,
+  tech: Logo Design,
+  url:
 
 - name: Group Hugs Mountaineers
-  url: "#"
   image: gho.jpg
-  desc: Logo Design, T-shirt Design
+  tech: Logo Design, T-shirt Design
+  url:

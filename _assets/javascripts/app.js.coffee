@@ -1,3 +1,6 @@
+#= require vendor/lib/jquery
+#= require vendor/fancybox/jquery.fancybox
+
 "use strict"
 
 self = undefined
@@ -5,6 +8,7 @@ App =
   init: ->
     self = this
     self.bindEvents()
+    self.setupFancybox()
     return
 
   bindEvents: ->
@@ -21,5 +25,8 @@ App =
       return
 
     return
+
+  setupFancybox: ->
+    $("[rel='fancybox']").fancybox()
 
 App.init()
