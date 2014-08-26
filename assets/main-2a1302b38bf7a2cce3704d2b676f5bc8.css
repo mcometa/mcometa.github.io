@@ -1,0 +1,240 @@
+                 /*! mcometa.github.io
+*  by Marc Cometa/* == Posts
+* =============================================================================== */
+/* == Global Resets
+/* =============================================================================== */
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,400,700,300italic,400italic,700italic");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px 'Roboto', 'Arial', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+h1 {
+  margin-bottom: 1em; }
+
+p {
+  margin: 0.5em 0; }
+
+a {
+  color: #4BBCFF;
+  text-decoration: none; }
+  a:hover {
+    color: #3e9ed6;
+    text-decoration: underline; }
+  a:visited {
+    color: #3e9ed6; }
+
+img {
+  max-width: 100%; }
+
+/* == Scaffold
+/* =============================================================================== */
+.w {
+  margin-left: -10px;
+  margin-right: -10px; }
+
+.c-1 {
+  width: 8.3333333333%; }
+
+.c-2 {
+  width: 16.666666667%; }
+
+.c-3 {
+  width: 25%; }
+
+.c-4 {
+  width: 33.333333333%; }
+
+.c-5 {
+  width: 41.666666667%; }
+
+.c-6 {
+  width: 50%; }
+
+.c-7 {
+  width: 58.33333333%; }
+
+.c-8 {
+  width: 66.666666667%; }
+
+.c-9 {
+  width: 75%; }
+
+.c-10 {
+  width: 83.333333333%; }
+
+.c-11 {
+  width: 91.6666666667%; }
+
+.c-12 {
+  width: 100%; }
+
+[class*="c-"] {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/* == Blog
+/* =============================================================================== */
+.post {
+  font-family: 'Roboto', 'Arial', sans-serif; }
+
+.post-title {
+  letter-spacing: 1px;
+  font-size: 2.4em;
+  line-height: 1em;
+  margin-bottom: 30px; }
+
+.post-content {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.04em; }
+  .post-content > p {
+    margin: 0 0 20px; }
+
+.post-meta {
+  color: #999; }
+
+/* == Site
+/* =============================================================================== */
+.site {
+  font-size: 115%;
+  width: 100%;
+  margin: 3em auto 2em;
+  line-height: 1.5em; }
+
+.head {
+  padding: 20px 20px 0; }
+  .head a {
+    font-weight: bold;
+    text-decoration: none; }
+  .head a.extra {
+    color: #aaa;
+    margin-left: 1em; }
+  .head a.extra:hover {
+    color: #000; }
+
+.title {
+  font-size: 2em;
+  display: inline-block;
+  margin-bottom: 0.2em;
+  line-height: 1; }
+  .title a {
+    color: #a00; }
+    .title a:hover {
+      color: #000; }
+
+.meta {
+  color: #aaa; }
+
+.footer {
+  font-size: 80%;
+  color: #777;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden; }
+
+/* == Posts
+/* =============================================================================== */
+/* Portfolio Items */
+.portfolio-items {
+  margin-left: -1px;
+  margin-right: -1px; }
+
+.portfolio-item {
+  padding-left: 1px;
+  padding-right: 1px;
+  overflow: hidden;
+  position: relative; }
+  .portfolio-item > .screenshot {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 2px;
+    text-align: center; }
+
+.details {
+  position: absolute;
+  bottom: -500px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  left: 1px;
+  right: 1px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+  -webkit-transition: bottom 0.3s;
+  -moz-transition: bottom 0.3s;
+  -ms-transition: bottom 0.3s;
+  -o-transition: bottom 0.3s;
+  transition: bottom 0.3s; }
+
+/* == Helpers
+/* =============================================================================== */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table; }
+
+.hide {
+  display: none; }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  *zoom: 1; }
+
+.fl-r {
+  float: right; }
+
+.fl-l {
+  float: left; }
+
+.n-m {
+  margin: 0; }
+
+.n-p {
+  padding: 0; }
+
+@media (min-width: 1025px) {
+  .site {
+    width: 70em; } }
+@media (max-width: 1024px) {
+  .site {
+    width: 100%; } }
+@media (min-width: 768px) {
+  [class*="c-"] {
+    float: left; } }
+@media (min-width: 480px) and (max-width: 767px) {
+  .site {
+    margin-top: 1em;
+    width: 100%; }
+
+  [class*="c-"] {
+    float: left;
+    width: 50%; } }
+@media (max-width: 479px) {
+  .site {
+    margin-top: 1em; }
+
+  [class*="c-"] {
+    width: 100%; }
+
+  .footer {
+    padding: 0 10px;
+    margin-top: 1em; } }
